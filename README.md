@@ -52,7 +52,8 @@ self.end_headers() self.wfile.write(content.encode())
 print("This is my webserver") server_address =('',8000) httpd = HTTPServer(server_address,MyServer) httpd.serve_forever()
 
 ## OUTPUT:
-![image](https://github.com/aadhithya15/webserver/assets/121165812/b2761b35-0b3c-4239-819a-5f5529599211)
+![image](https://github.com/aadhithya15/webserver/assets/121165812/287fc0a0-ec49-4655-945a-2d1cd1919b6b)
+
 
 
 ## RESULT:
